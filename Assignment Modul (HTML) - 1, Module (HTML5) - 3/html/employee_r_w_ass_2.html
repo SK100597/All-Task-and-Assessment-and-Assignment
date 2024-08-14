@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration Form</title>
+</head>
+<body>
+    <center>
+    <form name="erf" onsubmit="xyz()">
+    <table>
+        <thead>
+            <th style="vertical-align:middle;"><img src="/Images/01.png" alt="Employee" height="75" width="100" style="margin-top:25px; margin-left:100px;"></th>
+            <th style="vertical-align:middle; font-size: 40px;">Employee Registration Form</th>
+        </thead>
+    </table>
+    <label for="fname">First Name :- </label>
+    <input type="text" name="fname" placeholder="Enter Your Name" required> <br><br>
+    <label for="sname">Last Name :- </label>
+    <input type="text" name="lname" placeholder="Enter Your Surname"><br><br>
+    <label for="gender">Select Gender</label>
+    <input type="radio" name="gender">Male
+    <input type="radio" name="gender">Female
+    <input type="radio" name="gender">Other <br><br>
+    <label for="add1">Main Address1 :-</label>
+    <input type="text" name="md1"> <br><br>
+    <label for="add2">Main Address2 :-</label>
+    <input type="text" name="md2"> <br><br>
+    <label for="city">City :-</label>
+    <input type="text" name="city"> <br><br>
+    <label for="state">State :-</label>
+<select name="state" id="">
+    <option value="select">Select</option>
+    <option value="gujarat">Gujarat</option>
+    <option value="diu">Diu</option>
+    <option value="goa">Goa</option>
+</select><br><br>
+    <label for="zipcode">Zip Cope :-</label>
+    <input type="text" name="zc"> <br><br>
+    <label for="upload photo">Upload Photo :-</label>
+    <input type="file" name="up"> <br><br>
+    <label for="e-mail">E-mail :-</label>
+    <input type="text" name="email"> <br><br>
+    <label for="mobile">Mobile Number :-</label>
+    <input type="text" name="mn" placeholder="+91"> <br><br>
+    <label for="languages">Languages Known :-</label>
+    <input type="checkbox" name="english"> English
+    <input type="checkbox" name="hindi"> Hindi
+    <input type="checkbox" name="gujarati"> Gujarati  <br><br>
+    <label for="ai">Additional Information :-</label>
+    <!-- <textarea type="text" name="add_inf" id="" placeholder="Optional" rows="6" cols="18">
+    
+    </textarea> -->
+    <input type="text" placeholder="Optional">
+ <br><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Page Reset">
+</form>
+</center>    
+<a href="list_tag_ass_3.html" target="_blank">Go To List Tag Assignment 3</a>
+</body>
+<script>
+    function xyz(){
+        let c= document.erf.fname.value
+        let v= document.erf.lname.value
+        let e= document.erf.md1.value
+        let d= document.erf.md2.value
+        let a= document.erf.city.value
+        let b= document.erf.zc.value
+        let w= document.erf.email.value
+        let k= document.erf.mn.value
+        let l= document.erf.add_inf.value
+        
+                     
+        alert(c)
+        // alert("form sumbetted successfully")
+    }
+    
+</script>
+</html>
