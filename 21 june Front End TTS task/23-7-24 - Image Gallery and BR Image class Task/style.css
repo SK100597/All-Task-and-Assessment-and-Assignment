@@ -1,0 +1,38 @@
+/* Backgound Property */
+body{
+    background-image: url("Images/01.jpg"), url("Images/02.jpg"), url("Images/03.jpg");
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    /* background-repeat: repeat-x;
+    background-repeat: repeat-y; */
+    background-position: left 0px, right 0px, top, center;
+    
+       
+}
+
+div{
+     background-image: url("Images/04.jpg"), url("Images/05.jpg"), url("Images/06.jpg"); 
+    background-position: left 0px, right 0%, top, center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: auto 75px, auto 75px, auto 75px;
+    color: crimson;
+    font-size: 50px;
+    /* background-repeat: repeat-x;
+    background-repeat: repeat-y; */
+        
+}
+
+body > a{
+    margin-left: 50px;
+    font-size: 35px;
+    color: aliceblue;
+}
+
+
+/* div {
+    background-image: url(Images/04.jpg), url(Images/05.jpg);
+    height: 200px; Adjust height as needed
+    background-position: left, top, left, top calc(100px - 1000px); Adjust the offset as needed
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto 25%, auto 25%; Adjust size as needed
+} */

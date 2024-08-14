@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    /* grid-template-areas: 
+        "header header header"
+        "lside cardcontainer from"
+        "footer footer footer"; */
+
+}
+
+/* Header */
+.header{
+    background-color: black;
+    color: aliceblue;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+
+}
+
+/* Logo */
+img{
+    height: 35px;
+    width: 40px;
+    margin-left: -70%;
+    margin-top: 2px;
+
+}
+
+/* navbar */
+a{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 7px;
+
+}
+
+a:hover{
+    background-color: rgb(114, 114, 119);
+    border-radius: 5px 5px 5px 5px;
+    border: ;
+
+}
+
+/* button */
+button{
+    /* display: block;
+    margin-left:80px; */
+    height: 25px;
+    width: 83px;
+    margin: 3px;
+
+}
+
+/* Main Content */
+/* Video link */
+iframe{
+    height: 70%;
+    width: 97%;
+    margin-top: 10%;
+    margin-left: 2%;
+}
+
+/* Card */
+.cardcontainer{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap: 5px;
+    align-content: center;
+    text-align: center;
+
+}
+
+.card{
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+
+}
+
+.imgphone{
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+.imgphone:hover{
+    transform: scale(1.1);
+}
+
+p{
+    font-size: 10px;
+    margin-top: 7px;
+}
+
+sup{
+    font-size: 10px;
+    color: red;
+}
+
+h3{
+    font-size: 13px;
+    margin-top: 3px;
+
+}
+
+/* Form */
+form{
+    text-align: center;
+}
+
+h2{
+    margin-left: -75px;
+    font-size: 18px;
+    margin-bottom: 5px;
+
+}
+
+.text{
+    margin-bottom: 5px;
+    border-radius: 5px 5px 5px 5%;
+    /* -webkit-text-stroke: 0.5px rgb(0, 0, 0); */
+    text-align: center;
+
+}
+
+form ::placeholder{
+    font-size: 10px;
+}
+
+
+body > div > div.from > form > label{
+    display: block;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+.registration{
+    margin-top: 10px;
+    width: 110px;
+    height: 20px;
+
+}
+
+/* Footer */
+.footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    display: grid;
+    padding-top: 8px;
+    
+}
+
+/* Pages */
+.footerp{
+    margin-top: 0px;
+
+}
+
+/* Subscribe */
+body > div > div:nth-child(8) > input.sub{
+    width: 120px;
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 25%;
+
+}
+
+input.sub:hover{
+    color: rgb(255, 0, 0);
+}
+
+body > div > div:nth-child(8) > input[type=text]:nth-child(2){
+    width: 94%;
+    height: 25px;
+    margin-left: 5px;
+    margin-top: 10px;
+    
+}
+
+::placeholder{
+    color: rgb(200, 200, 200);
+    font-size:medium;
+    text-align: center;
+    
+}
+
+body > div > div:nth-child(8) > input.feed{
+    width: 120px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 25%;
+}
+
+/* Social Media */
+
+body > div > div:nth-child(9){  
+    text-align: center;
+    
+}
+
+body > div > div:nth-child(9) > h2{
+    text-align: center;
+
+}
+
+body > div > div:nth-child(9) > img:nth-child(1){
+
+    height: 20px;
+    width: 20px;
+    margin-left: 60px;
+
+}
+
+body > div > div:nth-child(9) > img:nth-child(2){
+
+    height: 20px;
+    width: 20px;
+    margin-left: 90px;
+    margin-top: -32px ;
+
+}
+body > div > div:nth-child(9) > img:nth-child(3){
+    height: 20px;
+    width: 20px;
+    margin-left: 120px ;
+    margin-top: -43px ;
+
+}
+body > div > div:nth-child(9) > img:nth-child(4){
+    height: 20px;
+    width: 20px;
+    margin-left: 150px ;
+    margin-top: -55px ;
+
+}

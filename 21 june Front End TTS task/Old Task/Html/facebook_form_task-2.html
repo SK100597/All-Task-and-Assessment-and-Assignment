@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Facebook | facebook</title>
+    <link rel="stylesheet" href="/Css/style.css">
+</head>
+<body>
+    <center>
+    <form name="fb" onsubmit="xyz()" >
+        <h1>FACEBOOK</h1>
+    <p class="rty">Create a new account</p>
+        <h4>This is quick and easy</h4>
+        <br>
+        <label >Username:-</label>
+        <input type="text" name="uname" placeholder="Enter Your Name" required>
+        <label>Surname:-</label>
+        <input type="surname" name="sname" value="Enter Your Surname">
+        <br>
+        <br>
+    <div class="me">
+        <label class="me">Mobile Number or Email:-</label>
+        <input type="text" name="mobileoremail" placeholder="Enter Your Mobile Number or Email">
+    </div>
+        <br><br>
+        <label>Birthday:-</label>
+        <input type="date" name="birthdate">
+        <br><br>
+        <label>Gender:-</label>
+        <input type="radio"name="Gender" checked> Male
+        <input type="radio" name="Gender"> Female
+        <input type="radio" name="Gender"> Other
+        <br><br>
+        <label> Password :-</label>
+        <input type="password" name="password" placeholder="Enter Your Password">
+        <br><br>
+        <label>Upload Your Photo :-</label>
+        <input type="file" name="photo">
+        <br><br>
+        <input type="text" name="b" value="By Clicking Sign Up. You agree to our Terms." readonly>
+        <br><br>
+        Pls. Give Your Rating :-
+        <input type="number" name="rating">
+        <br><br>
+        <input type="reset" value="Page Reset">
+        <input type="submit"  value="Sign up" >
+    </form>
+    <br>
+    <a href="youtubeplaylist-3.html" target="_blank">Go To Youtube Play List Task-3</a>
+</center>
+</body>
+<script >   
+      
+     function xyz(){
+            let v= document.fb.uname.value
+            let c= document.fb.sname.value
+            let b= document.fb.mobileoremail.value
+            let d= document.fb.password.value
+            let a= document.fb.rating.value
+          alert(v)
+     }
+</script>
+</html>

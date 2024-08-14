@@ -1,0 +1,23 @@
+*>h1{
+    background-color: red;
+}
+
+.rty{
+    background-color: rgb(30, 209, 65) !important;
+    font-size: 22px;
+}
+.ttitle{
+    background-color: blue;
+    color: aliceblue;
+    font-size: 22px;
+}
+.thead{
+    background-color: rgb(11, 255, 56);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.me{
+    display: inline;
+
+}

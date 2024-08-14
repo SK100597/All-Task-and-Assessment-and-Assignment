@@ -1,0 +1,82 @@
+.header{
+    background-color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+.op{
+    display: flex;
+    display: inline;
+    padding: 10px;
+    color: aliceblue;
+    
+
+}
+
+.op:hover{
+    
+    color: darkorange;
+}
+
+
+
+
+
+.cantainer{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+
+}
+
+.card{
+    padding: 40px;
+    margin-top: 70px;
+    border: #1aff0045 solid 1px;
+    border-radius: 0px 0px 100px 100px;
+    cursor: pointer;
+    
+}
+
+
+.f{
+    display: flex;
+    display: inline;
+    padding: 20px;
+    padding: 45px;
+    font-size: 18px;
+}
+
+.flist{
+    display: flex;
+    color: #000101;
+    background-color: #ffff003c;
+    font-style: bold;
+}
+
+.know{
+    margin-left: 35px;
+
+}
+
+.us{
+    margin-left: 100px;
+}
+
+.money{
+    margin-left: 150px;
+}
+
+.help{
+    margin-left: 160px;
+}
+
+p{
+    font-size: 25px;
+    
+}
+
+h2{
+    font-size: 40px;
+    padding-inline: 80px;
+}

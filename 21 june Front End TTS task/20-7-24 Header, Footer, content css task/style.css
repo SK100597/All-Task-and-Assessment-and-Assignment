@@ -1,0 +1,49 @@
+.header{
+    background-color: aqua;
+    /* text-align: center; */
+
+}
+.main{
+    display: flex;
+}
+
+.Content{
+    /* height: 250px;
+    width: 150px; */
+    text-align:center;
+    padding: 30px;
+
+}
+.table{
+    text-align: center;
+}
+table>tbody>tr:first-child{
+    background-color: royalblue;
+    color: aliceblue
+
+}
+
+footer{
+    background-color: brown;
+}
+
+.fmenu{
+    list-style: none;
+    display: flex;
+    color: aliceblue;
+    font-size: 22px;
+    margin-left: 85px;
+
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    /* text-align: center; */
+    margin-left: 50px;
+    /* margin-right: 50px; */
+    font-size: 22px;
+}
+
+li{
+    margin-right: 20px;
+}

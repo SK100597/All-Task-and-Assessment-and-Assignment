@@ -1,0 +1,33 @@
+.slider-container {
+    position: relative;
+    width: 750px;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+.slide {
+    display: none;
+    width: 750PX;
+    height: 1300PX;
+}
+.slide img {
+    width: 100%;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0 3px 3px 0;
+    user-select:none;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
