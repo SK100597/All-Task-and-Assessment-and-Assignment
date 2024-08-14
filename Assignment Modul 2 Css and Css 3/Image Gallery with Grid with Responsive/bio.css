@@ -1,0 +1,152 @@
+*{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.home{
+    font-size: 22px;
+    display: inline;
+    margin-left: 600px;
+    
+}
+
+h1{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition:0.4s ease-out;
+}
+
+a:hover{
+    color: rgb(255, 145, 0);
+}
+
+.photo{
+    position:absolute;
+    margin-left: 10px;
+}
+
+/*image color Filter*/
+.img{
+    width: 500px;
+    border: 5px solid white;
+    border-radius: 0% 5% 0% 5%;
+    filter: saturate(10%);
+}
+
+.img:hover{
+    filter: saturate(100%);    
+}
+
+div{
+    color: white;
+    padding: 15px;
+    margin-left: 40%;
+    margin-top: 0px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+p{
+    padding: 10px;
+    font-size: 25px;
+
+}
+
+/*Hover Effect*/
+.welcome{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition:0.4s ease-out;
+}
+.welcome:hover{
+    color: rgb(255, 145, 0);
+}
+
+.line1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    transition:0.4s ease-out;
+}
+.line1:hover{
+    color: rgb(252, 255, 79);
+}
+
+.line2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    transition:0.4s ease-out;
+}
+.line2:hover{
+    color: rgb(59, 255, 245);
+}
+
+.line3{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    transition:0.4s ease-out;
+}
+.line3:hover{
+    color: rgb(65, 78, 255);
+}
+
+.line4{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    transition:0.4s ease-out;
+}
+.line4:hover{
+    color: rgb(255, 34, 34);
+}
+
+.line5{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    transition:0.4s ease-out;
+}
+.line5:hover{
+    color: rgb(255, 165, 48);
+}
+
+body > div.sslogo .img1{
+    height: 50px;
+    width: 70px;
+    padding: 5px;
+    
+}
+
+body > div.sslogo .img2{
+    height: 45px;
+    width: 55px;
+    padding: 5px;
+    border-radius: 50%;
+    
+}
+
+body > div.sslogo .img3{
+    height: 45px;
+    width: 55px;
+    padding: 5px;
+    
+}
+.sslogo{
+    display: flex;
+    margin-top: -40px;
+    margin-right: 250px;
+    flex-direction: row-reverse;
+    column-gap: 10px;
+}

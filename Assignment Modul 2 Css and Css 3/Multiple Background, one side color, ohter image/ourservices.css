@@ -1,0 +1,80 @@
+*{
+    color: aliceblue;
+}
+
+body{
+    background-color: black;
+    background-image: url(image/Earth.jpg);
+    background-image: url(image/Tablet.webp);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 650px 800px;
+    background-position-y: top;
+    background-attachment: fixed;
+    
+
+}
+
+body >.container{
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    margin-top: 50px;
+    flex-direction: column;
+    margin-right: 700px ;
+    padding-bottom: 150px;    
+}
+
+h1{
+    font-size: 40px;
+    margin-right: 0px;
+    margin-top: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline;
+}
+
+
+h3{
+    font-size: 30px;
+    color: red;
+    padding-top: 10px;
+}
+
+p{
+    font-size: 20px;
+    padding-top: -50px;
+}
+
+.line{
+    color: red;
+}
+
+.hlogo{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    
+    height: 50px;
+    width: 50px;
+    margin-left: 818px;
+    margin-top: -605px;
+}
+
+.d{
+    border-radius: 50%;
+}
+
+.p{
+    margin-top: 115px;
+    border-radius: 50%;
+}
+
+.c{
+    margin-top: 115px;
+    border-radius: 50%;
+}
+
+.therd{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+}

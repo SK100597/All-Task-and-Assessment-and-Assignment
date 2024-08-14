@@ -1,0 +1,110 @@
+*{
+    background-color: black;
+}
+
+
+/*Home Button*/
+p{
+    margin-top: 20px;
+    margin-right: 50px;
+    font-size: 22px;
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition:0.4s ease-out;
+}
+
+a:hover{
+    color: rgb(255, 145, 0);
+}
+
+
+body > h1{
+    text-align: center;
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+.container{
+    width: 1120px;
+    display: grid;
+    grid-row-gap: 5px;
+}
+
+.img1{
+    width: 890px;
+    height: 208px;
+}
+
+.img2{
+    width: 220px;
+    height: 208px;
+}
+
+.img3{
+    width: 200px;
+    height: 208px;
+}
+
+.img4{
+    width: 700px;
+    height: 208px;
+}
+
+.img5{
+    width: 200px;
+    height: 208px;
+}
+
+.img6{
+    width: 555px;
+    height: 208px;
+}
+.img7{
+    width: 555px;
+    height: 208px;
+}
+.img8{
+    width: 366.66px;
+    height: 208px;
+}
+.img9{
+    width: 366.67px;
+    height: 208px;
+
+}
+.img10{
+    width: 366.66px;
+    height: 208px;
+    border-radius: 50%;
+}
+
+.container1{
+    display: grid;
+    grid-template-columns: 890px 1fr ;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px ;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-column-gap: 10px;
+}
+
+.container3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+}
+
+.container4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+}

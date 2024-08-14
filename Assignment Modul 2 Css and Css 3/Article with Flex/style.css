@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.first, .second, .therd{
+    padding: 10px;
+    font-size: 18px;
+
+}
+
+.first{
+    background-color:rgb(255, 123, 0);
+    margin: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.second{
+    background-color: rgb(237, 233, 233);
+    margin: 10px;
+}
+
+.therd{
+    background-color:rgb(32, 217, 18);
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 15px;
+}
+
+.b{
+    width: 150px;
+    height: 35px;
+    
+}
+
+.b2{
+    height: 35px;
+    width: 600px;
+    margin: 5px;
+}
