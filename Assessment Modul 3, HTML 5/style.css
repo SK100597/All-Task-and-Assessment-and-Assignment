@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: aquamarine;
+    display:flex;
+}
+
+img{
+    height: 65px;
+    width: 80px;
+    margin-left: 2%;
+
+}
+
+.main{
+    display: flex;
+    margin-left: 60%;
+    column-gap: 20px;
+    align-items: center;
+    font-size: 18px;
+}
+
+body > header > div > label.mainbutton > div{
+    position: absolute;
+    color: rgb(0, 0, 0);
+
+}
+
+.list1{
+    display: none;
+    cursor: pointer;
+    padding: 8px;    
+    border-bottom:1px solid rgb(255, 255, 255);
+    background-color: aquamarine;
+}
+
+.mainbutton:hover .list1{
+    display: block;
+}
+
+.list2{
+    display: none;
+    cursor: pointer;
+    padding-bottom: 30px;
+    background-color: aquamarine;
+    border-bottom: 1px solid white;
+    margin-left: 75px;
+    margin-top: -20px;
+}
+
+.mainsub:hover .list2{
+    display: block;
+    
+}
+
+
+
+button{
+    width: 75px;
+    height: 25px;
+}
+
+
+
