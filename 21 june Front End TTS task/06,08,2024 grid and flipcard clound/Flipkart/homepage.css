@@ -1,0 +1,778 @@
+*{
+    margin-top: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(214, 214, 214);
+}
+
+body > div:nth-child(1) > header{
+    display: flex;
+    column-gap: 20px;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    
+}
+
+/* ***** Navbar ***** */
+
+/* ****LOGO****** */
+body > div:nth-child(1) > header > div.logo > img{
+    width: 90px;
+    height: 30px;
+}
+
+/* ***** Search Bar ***** */
+body > div:nth-child(1) > header > div:nth-child(2) > img{
+    display: flex;
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+    margin-top: -22px;
+
+}
+
+body > div:nth-child(1) > header > div:nth-child(2) > input{
+    background-color: rgb(245, 245, 245);
+    border-radius: 0.5rem;
+    width: 400px;
+    height: 25px;
+    border: none;
+    text-align: center;    
+
+}
+
+body > div > header > div:nth-child(2) > input[type=text]::placeholder{
+    text-align: center;
+    margin-top:0;
+}
+
+
+/* *****User Manu***** */
+
+/* ***** Profile ***** */
+/* ***** Login ***** */
+
+body > div:nth-child(1) > header > div.profile > div.login > a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    column-gap: 8px;
+    align-items: center;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    /* transition: 0.5ms; */
+        
+}
+
+
+body > div > header > div:nth-child(3) > div:nth-child(1) > a > span{
+    font-size: 18px;
+}
+
+body > div > header > div:nth-child(3) > div:nth-child(2) a {
+    text-decoration: none;
+    color: black;
+    width: 150px;
+}
+
+body > div > header > div:nth-child(3) > div > a:nth-child(1) > img:nth-child(1){
+    height: 24px;
+    width: 24px;
+}
+
+/* body > div > header > div:nth-child(3) > div > a:nth-child(2) > img:nth-child(2){
+    height: 24px;
+    width: 24px;
+} */
+
+body > div > header > div:nth-child(3) > div > a:nth-child(3) > img{
+    height: 24px;
+    width: 24px;
+}
+
+body > div > header > div:nth-child(3) > div > a:nth-child(1) > img:nth-child(3){
+    height: 12px;
+    width: 16px;
+    transition: all, 0.5s;
+}
+
+body > div > header > div:nth-child(3) > div > a:nth-child(1) > img:nth-child(3):hover{
+    transform:rotate(180deg);
+}
+
+.profile .dropdown .ddlist{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6px;
+    width: 12rem;
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+    /* margin-left: 115px; */
+    background-color: white;
+    font-size: 16px;
+    position: absolute;
+    display: none;
+    
+}
+
+.profile:hover .ddlist{
+    display: block;
+}
+
+
+body > div > header > div:nth-child(3) > div:nth-child(2) > ul > li:nth-child(1) > div, li:nth-child(2) > div, li:nth-child(3) > div, li:nth-child(4) > div, li:nth-child(5) > div, li:nth-child(6) > div {
+    display: flex;
+    justify-items: center;
+    column-gap: 10px;
+    padding-bottom: 7px;
+    
+}
+
+
+
+/* body > div > header > div:nth-child(3) > div:nth-child(2) > ul > li:nth-child(2) > div{
+    display: flex;
+    justify-items: center;
+    column-gap: 8px;
+} */
+
+/* body > div > header > div:nth-child(3) > div:nth-child(2) > ul > li:nth-child(3) > div{
+    display: flex;
+    justify-items: center;
+    column-gap: 8px;
+    
+} */
+
+/* body > div > header > div:nth-child(3) > div:nth-child(2) > ul > li:nth-child(4) > div{
+    display: flex;
+    justify-items: center;
+    column-gap: 8px;
+    
+} */
+
+/* body > div > header > div:nth-child(3) > div:nth-child(2) > ul > li:nth-child(5) > div{
+    display: flex;
+    justify-items: center;
+    column-gap: 8px;
+    
+} */
+
+/* body > div > header > div:nth-child(3) > div:nth-child(2) > ul > li:nth-child(6) > div{
+    display: flex;
+    justify-items: center;
+    column-gap: 8px;
+    
+} */
+
+.profile .login{
+    position: relative;
+    transition:10ms
+    
+}
+
+.profile .login:hover {
+        background-color: rgb(139, 165, 236);
+        scale: 1.1;
+        height: 1.5rem;
+        width: 100%;
+        border-radius: 0.8rem 0.8rem 0rem 0rem;
+}
+
+
+
+/* *****CART***** */
+
+body > div > header > div:nth-child(4) > a{
+    display: flex;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    justify-content: center;
+    column-gap: 8px;
+    align-items: center;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+body > div:nth-child(1) > header > div.cart{
+    position: relative;
+    transition: 10ms;
+}
+
+body > div:nth-child(1) > header > div.cart:hover{
+        background-color: rgb(139, 165, 236);
+        scale: 1.1;
+        height: 1.5rem;
+        width: 4.6rem;
+        border-radius: 0.8rem 0.8rem 0rem 0rem;
+}
+
+/* *****Become a Seller***** */
+
+body > div > header > div:nth-child(5) > a{
+    display: flex;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    justify-content: center;
+    column-gap: 8px;
+    width: 100%;
+
+}
+
+body > div > header > a:nth-child(5) > img{
+    height: 24px;
+    width: 24px;
+}
+
+body > div:nth-child(1) > header > div.seller{
+    position: relative;
+    transition: 10ms;
+}
+
+body > div:nth-child(1) > header > div.seller:hover{
+        background-color: rgb(139, 165, 236);
+        scale: 1.1;
+        height: 1.5rem;
+        width: 10.2rem;
+        border-radius: 0.8rem 0.8rem 0rem 0rem;
+}
+
+/* ***** Tree Dote ***** */
+
+body > div.container1 > header > div:nth-child(6) > a{
+    margin-left: 30px;
+    
+}
+
+body > div > header > div:nth-child(6) > a{
+    display: flex;
+    text-align: left;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+
+.threedot .threedotdropdown{
+    display: flex;
+    position: absolute;
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 150px;
+    display: none;
+    font-size: 15px;
+
+}
+
+.threedot:hover .threedotdropdown {
+    display: block;
+}
+
+
+
+body > div > header > .threedot .main > ul > li{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    column-gap: 10px;
+    padding-bottom: 7px;
+    width: 125px;
+    
+}
+
+
+/* body > div > header > div:nth-child(6) > a > div > ul > li:nth-child(2){
+    display: flex;
+    justify-items: center;
+    column-gap: 8px;
+    
+} */
+
+/* body > div > header > div:nth-child(6) > a > div > ul > li:nth-child(3){
+    display: flex;
+    justify-items: center;
+    column-gap: 8px;
+    
+} */
+
+/* body > div > header > div:nth-child(6) > a > div > ul > li:nth-child(4){
+    display: flex;
+    justify-items: center;
+    column-gap: 8px;
+} */
+
+body > div:nth-child(1) > header > div.threedot{
+    position: relative;
+    transition: 10ms;
+}
+
+body > div:nth-child(1) > header > div.threedot:hover{
+        background-color: rgb(139, 165, 236);
+        scale: 1.1;
+        height: 1.5rem;
+        width: 1.5rem;
+        border-radius: 0.8rem 0.8rem 0rem 0rem;
+}
+
+/* ***** Manu ***** */
+
+body > div.Manu{
+    width: 90%;
+    padding-top: 50px;
+    margin-left: 60px;
+
+}
+
+body > div.Manu > div{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 50px 10px 50px;
+    column-gap: 10px;
+    text-align: center;
+
+}
+
+body > div.Manu > div > div > span{
+    text-wrap:nowrap;
+    font-size: 14px;
+}
+
+/* ***** 1 advertisement ***** */
+
+body > div.Adv > div > img{
+    width: 1090px;
+    padding-top: 10px;
+    margin-left: 60px;
+
+}
+
+/* ***** Smart Phone ***** */
+body > div.smartphone > div{
+    width: 75%;
+    height: 235px;
+    margin-top: 10px;
+    margin-left: 60px;
+    background-color: rgb(255, 255, 255);
+}
+
+body > div.smartphone > div > div:nth-child(1){
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+body > div.smartphone > div > div:nth-child(1) > img{
+    height: 23px;
+    width: 25px;
+    margin-left: 73%;
+    background-color: rgb(165, 165, 255);
+    border-radius: 100%;
+}
+
+body > div.smartphone > div > div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    overflow-x: scroll;
+    padding: 10px;
+    column-gap: 10px;
+
+}
+
+body > div.smartphone > div > div:nth-child(2) > div{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 12px;    
+    padding: 8px;
+    
+}
+
+body > div.smartphone > div > div:nth-child(2) > div > img{
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+
+}
+
+body > div.smartphone > div > div:nth-child(2) > div > img:hover{
+    scale: 1.06;
+}
+
+body > div.smartphone > div > div:nth-child(2) > div > span{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+/* ***** side adv ***** */
+body > div.sideadv{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-top: -238px;
+    margin-right: 55px;
+    padding: 3px;
+
+}
+
+body > div.sideadv > div > img{
+    height: 245px;
+    width: 175px;
+}
+
+/* ***** adv container ***** */
+
+body > div.advcontainer{
+    display: flex;
+    width: 90.2%;
+    height: 175px;
+    margin-left: 60px;
+    margin-top: 20px;
+    column-gap: 10px;
+    
+}
+
+body > div.advcontainer > div > img{
+    width: 358px;
+    height: 175px;
+}
+
+/* ***** fashion ***** */
+body > div.fashion > div{
+    width: 90.5%;
+    height: 185px;
+    margin-left: 60px;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+body > div.fashion > div > div:nth-child(1){
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+body > div.fashion > div > div:nth-child(1) > img{
+    height: 23px;
+    width: 25px;
+    margin-left: 83%;
+    background-color: rgb(165, 165, 255);
+    border-radius: 100%;
+}
+
+body > div.fashion > div > div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    overflow-x: scroll;
+    padding: 10px;
+    column-gap: 10px;
+
+}
+
+body > div.fashion > div > div:nth-child(2) > div{
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 12px;    
+    padding: 8px;
+
+}
+
+
+body > div.fashion > div > div:nth-child(2) > div > img{
+    display: flex;
+    flex-direction: row;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    
+
+}
+
+body > div.fashion > div > div:nth-child(2) > div > img:hover{
+    scale: 1.07;
+}
+
+body > div.fashion > div > div:nth-child(2) > div > span{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    text-wrap:nowrap;
+    
+}
+
+body > div.fashion > div > div:nth-child(2) > .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-wrap:nowrap;
+
+}
+
+
+/* ***** Best Gadgets & Appliances ***** */
+
+body > div.gadgetsc{
+    width: 350px;
+    height: 440px;
+    margin-left: 60px;
+    margin-top: 35px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: -1;
+    
+}
+
+body > div.gadgetsc > div.container1 > div{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 30px;
+    position: relative;
+    padding: 10px;
+    
+}
+
+body > div.gadgetsc > div.container1 > div > div:nth-child(1){
+    width: 300px;
+}
+
+body > div.gadgetsc > div.container1 > div > div:nth-child(2){
+    width: 40px;
+}
+
+body > div.gadgetsc > div.container1 > div > div:nth-child(2) > img{
+    height: 23px;
+    width: 25px;
+    background-color: rgb(165, 165, 255);
+    border-radius: 100%;
+}
+
+
+body > div.gadgetsc > div.container2{
+    display: grid;
+    grid-template-columns: repeat(2,100px);
+    column-gap: 60px;
+    row-gap: 20px;
+    height: 200px;
+    text-align: center;
+    justify-items: center;
+    position: relative;;
+    margin-left: 45px;
+
+}
+
+body > div.gadgetsc > div.container2 > div{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 175px;
+    width: 135px;
+    align-items: center;
+    justify-content: center;
+    justify-content:space-evenly;
+    
+}
+
+
+body > div.gadgetsc > div.container2 > div > img{
+    display: flex;
+    width: 80px;
+    height: 90px;
+    /* padding: 15px; */
+       
+}
+
+body > div.gadgetsc > div.container2 > div > img:hover {
+    scale: 1.07;
+}
+
+
+
+/* ***** side Adv 2 ***** */
+body > div.sideadv2{
+    display: flex;
+    height: 200px;
+    width: 200px;
+
+}
+
+body > div.sideadv2 > div > img{
+    display: flex;
+    height: 440px;
+    width: 735px;
+    margin-left: 420px;
+    margin-top: 35px;
+    position: absolute;
+    z-index: -1 ;
+    
+}
+
+/* ***** Footer 1 part ***** */
+
+body > footer{
+    margin-top: 285px;
+    background-color: black;
+}
+
+body > footer > div{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5rem;
+    padding: 30px 20px 20px 50px;
+    width: 10rem;
+}
+
+body > footer > div > div.about > ul, div.companies > ul, div.help > ul, div.consumerpolicy > ul{
+    word-spacing: 3px;
+    letter-spacing: 0.5px;
+    color: rgb(165, 165, 165);    
+    margin-bottom: 10px;
+    
+}
+
+body > footer > div > div.about > ul > li, div.companies > ul > li, div.help > ul > li, div.consumerpolicy > ul > li{
+    list-style: none;
+    margin-top: 5px;
+    font-size: 11px;
+
+}
+
+body > footer > div > div.about > ul > li > a, div.companies > ul > li > a, div.help > ul > li > a, div.consumerpolicy > ul > li > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/* ***** Footer vertical line ***** */
+
+body > footer > div{
+    width: 90%;
+}
+
+body > footer > div > div.verticalline{
+    width: 1px;
+    height: 12rem;
+    margin-top: -13rem;
+    margin-left: 650px;
+    background-color: rgb(165, 165, 165);    
+    justify-items:center;
+
+}
+
+/* ***** Footer 2 part ***** */
+
+body > footer > div.footercontainer2{
+    width: 30rem;
+    padding: 0;
+    margin-top: -230px;
+    margin-left: 728px;
+}
+
+body > footer > div.footercontainer2 > div.mailus, div.officeadd{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5rem;
+    width: 12.5rem;    
+}
+
+body > footer > div.footercontainer2 > div > ul {
+    word-spacing: 3px;
+    letter-spacing: 0.5px;
+    color: rgb(165, 165, 165);    
+    margin-bottom: 10px;
+}
+
+body > footer > div.footercontainer2 > div.mailus > ul > ul > li{
+    list-style: none;
+    margin-top: 21px;
+
+}
+
+body > footer > div.footercontainer2 > div.mailus > ul > ul > li > div{
+    margin-top: 10px;
+}
+
+body > footer > div.footercontainer2 > div.mailus > ul > li, div.officeadd > ul > li{
+    list-style: none;
+    margin-top: 5px;
+    font-size: 11px;
+    color: rgb(255, 255, 255);
+    line-height: 18px;
+}
+
+
+/* ***** Footer 3 part Horizontal Line ***** */
+
+body > footer > div.horizontal{
+    width: 100%;
+}
+
+body > footer > div.horizontal > div{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    left: 0.5rem;
+    height: 1px;
+    background-color: rgb(165, 165, 165);    
+    justify-items:center;
+
+}
+
+/* ***** Footer 3 part ***** */
+
+body > footer > div.footercontainer3{
+    display: flex;
+    width: 100%;
+    height: 35px;
+    justify-content: space-evenly;
+    justify-content: center;
+    padding: 0;
+}
+
+body > footer > div.footercontainer3 > .item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+body > footer > div.footercontainer3 > .item > img{
+    height: 18px;
+    width: 18px;
+}
+
+
+body > footer > div.footercontainer3 > .item > a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+
+}
