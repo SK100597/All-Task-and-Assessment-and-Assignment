@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <canvas id="shape" width="850px" height="400px" style="border: 5px solid red;"></canvas>
+    </center>
+</body>
+
+<script>
+    let canvas = document.getElementById('shape');
+    let ctx = canvas.getContext('2d');
+
+
+// Square shape
+
+ctx.fillStyle = "red";
+ctx.rect(50, 100, 150, 150);
+ctx.lineWidth = "4";
+ctx.stroke();
+ctx.fill();
+
+// Circle Shape
+ctx.beginPath();
+ctx.arc(400, 175, 85, 0, 2 * Math.PI);
+ctx.fillStyle = "yellow";
+ctx.stroke();
+ctx.fill();
+
+// Rectangle
+ctx.fillStyle = "blue";
+ctx.strokeRect(600, 125, 200, 100);
+ctx.fillRect(600, 125, 200, 100);
+
+</script>
+</html>
