@@ -1,0 +1,33 @@
+.main{
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: rgb(255, 168, 39);
+
+}
+.maincircle{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 251, 39);
+    border-radius: 50%;
+    margin-top: 25px;
+    
+}
+
+.subcircle{
+    width: 160px;
+    height: 160px;
+    background-color:rgb(250, 247, 98);
+    border-radius: 50%;
+    margin-top: -260px;
+    margin-left: -70px;
+    transition: 8s;
+    
+}
+
+.subcircle:hover{
+    background-color: rgb(255, 168, 39);
+    width: 250px;
+    height: 250px;
+
+}
