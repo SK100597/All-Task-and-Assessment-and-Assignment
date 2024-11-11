@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.maindiv{
+    margin: 0px auto;
+    width: 350px;
+    background-color: rgb(117, 117, 255);
+    padding: 50px;
+}
+
+.subdiv{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    justify-items: center;
+
+}
+
+input{
+    display: block;
+    width: 290px;
+    height: 25px;
+    margin: 15px 0px;
+    padding: 0px 10px;
+    
+}
+
+.subbutton{
+    width: 125px;
+    height: 35px;
+}
