@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+/* Main Contenar */
+.contenar{
+    padding: 10% 0%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+/* Top lining background */
+.top_lines{
+    display: flex;
+    gap: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.top-line::before{
+    content: "";
+    width: 5px;
+    height: 150px;
+    display: block;
+    background-color: gray;
+
+}
+
+/* Image 1 Contenar */
+.image_con_1{
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    transform: rotate(-45deg);
+
+}
+
+/* Image 2 Contenar */
+.img_con_2{
+    margin-left: -125px;
+}
+
+/* Contenar Image Contenar */
+.image1{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    
+}
+
+/* Contenar Image */
+.image1 img{
+        width: 240px;
+        height: 230px;
+        transform: rotate(45deg);
+        margin-left: -50px;
+        margin-top: -35px;
+
+}
